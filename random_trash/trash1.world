@@ -1,0 +1,662 @@
+<?xml version='1.0' ?>
+<?xml-model href='http://sdformat.org/schemas/root.xsd' schematypens='http://www.w3.org/2001/XMLSchema'?>
+<sdf version='1.5'>
+  <world name='default'>
+    <plugin name='mrs_gazebo_static_transform_republisher_plugin' filename='libMRSGazeboStaticTransformRepublisher.so'/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>47.397743</latitude_deg>
+      <longitude_deg>8.545594</longitude_deg>
+      <elevation>0.0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+
+    <physics name='default_physics' default='0' type='ode'>
+      <gravity>0 0 -9.8066</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>10</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>1000</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+      <magnetic_field>6.0e-06 2.3e-05 -4.2e-05</magnetic_field>
+    </physics>
+    <scene>
+      <shadows>false</shadows>
+      <sky>
+        <clouds/>
+      </sky>
+    </scene>
+    <light name='sun' type='directional'>
+      <pose frame=''>0 0 1000 0.4 0.2 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.6 0.6 0.6 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+    </light>
+<model name='beer_bottle0'>
+            <include>
+              <pose>20 49 1 0 0 3.1209347730689068</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle1'>
+            <include>
+              <pose>-23 -11 1 0 0 0.3927485435783449</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle2'>
+            <include>
+              <pose>45 -20 1 0 0 2.5747872808612793</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag3'>
+            <include>
+              <pose>-20 12 1 0 0 2.893891805564797</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='beer_bottle4'>
+            <include>
+              <pose>-25 -4 1 0 0 2.683935660186889</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle5'>
+            <include>
+              <pose>43 21 1 0 0 1.658593494858779</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle6'>
+            <include>
+              <pose>15 -24 1 0 0 1.1939238312960105</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block7'>
+            <include>
+              <pose>-8 -27 1 0 0 1.2186987734562735</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='square_bottle8'>
+            <include>
+              <pose>-3 -9 1 0 0 0.1757621866718275</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag9'>
+            <include>
+              <pose>-11 -28 1 0 0 2.4726652131046083</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='dock_block10'>
+            <include>
+              <pose>18 32 1 0 0 0.17580443070507643</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='square_bottle11'>
+            <include>
+              <pose>42 -34 1 0 0 0.5826221775698819</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle12'>
+            <include>
+              <pose>22 0 1 0 0 0.281635884052757</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle13'>
+            <include>
+              <pose>-1 -43 1 0 0 0.8318527948555375</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle14'>
+            <include>
+              <pose>-22 20 1 0 0 3.1188005985428195</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block15'>
+            <include>
+              <pose>8 -11 1 0 0 1.1194636355930718</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='dock_block16'>
+            <include>
+              <pose>0 9 1 0 0 0.33078531602397293</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='dock_block17'>
+            <include>
+              <pose>18 23 1 0 0 1.2213498368076958</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='beer_bottle18'>
+            <include>
+              <pose>-6 -32 1 0 0 1.0530476603353502</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle19'>
+            <include>
+              <pose>16 -2 1 0 0 3.040233229886099</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle20'>
+            <include>
+              <pose>-8 -10 1 0 0 1.0551384054782451</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle21'>
+            <include>
+              <pose>45 -27 1 0 0 0.6283860850827534</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle22'>
+            <include>
+              <pose>10 -5 1 0 0 0.20319344728700292</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle23'>
+            <include>
+              <pose>28 4 1 0 0 0.6554712263748955</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle24'>
+            <include>
+              <pose>28 27 1 0 0 1.82500525330692</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle25'>
+            <include>
+              <pose>-3 -45 1 0 0 2.141007884112902</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag26'>
+            <include>
+              <pose>-36 -46 1 0 0 2.134094357378648</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='garbage_bag27'>
+            <include>
+              <pose>44 -27 1 0 0 1.3322604280223378</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='garbage_bag28'>
+            <include>
+              <pose>44 36 1 0 0 2.4994560293213195</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='beer_bottle29'>
+            <include>
+              <pose>6 13 1 0 0 1.0781471434117222</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle30'>
+            <include>
+              <pose>38 6 1 0 0 1.6966047613166393</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle31'>
+            <include>
+              <pose>47 28 1 0 0 2.1193420301451575</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle32'>
+            <include>
+              <pose>46 -42 1 0 0 3.0298758637969194</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag33'>
+            <include>
+              <pose>-32 37 1 0 0 2.9900939225866834</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='dock_block34'>
+            <include>
+              <pose>15 -39 1 0 0 2.033864199470096</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='garbage_bag35'>
+            <include>
+              <pose>35 7 1 0 0 0.17664908638743462</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='square_bottle36'>
+            <include>
+              <pose>5 -5 1 0 0 2.6095723016762493</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag37'>
+            <include>
+              <pose>27 14 1 0 0 1.59267994072806</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='water_bottle38'>
+            <include>
+              <pose>8 25 1 0 0 2.9440034216710873</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle39'>
+            <include>
+              <pose>46 -16 1 0 0 0.5197149637752395</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag40'>
+            <include>
+              <pose>-13 12 1 0 0 0.8626547360418555</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='dock_block41'>
+            <include>
+              <pose>46 -32 1 0 0 2.1657646220345623</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='dock_block42'>
+            <include>
+              <pose>46 -41 1 0 0 2.2693947940379244</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='garbage_bag43'>
+            <include>
+              <pose>-20 -6 1 0 0 2.2274009543436164</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='dock_block44'>
+            <include>
+              <pose>-17 31 1 0 0 2.316212963543604</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='beer_bottle45'>
+            <include>
+              <pose>1 -6 1 0 0 0.8285315636171758</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle46'>
+            <include>
+              <pose>-35 -15 1 0 0 1.7970755280669966</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle47'>
+            <include>
+              <pose>28 -44 1 0 0 2.834338550183277</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle48'>
+            <include>
+              <pose>-14 -19 1 0 0 0.432293532338644</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block49'>
+            <include>
+              <pose>19 3 1 0 0 0.48593567501257484</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='beer_bottle50'>
+            <include>
+              <pose>7 26 1 0 0 2.369271377111833</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block51'>
+            <include>
+              <pose>10 3 1 0 0 3.0461252640445595</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='beer_bottle52'>
+            <include>
+              <pose>-20 33 1 0 0 2.0780104231728793</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle53'>
+            <include>
+              <pose>-8 -48 1 0 0 1.4991598689136745</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle54'>
+            <include>
+              <pose>36 -1 1 0 0 2.605969026599928</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag55'>
+            <include>
+              <pose>-20 23 1 0 0 0.29019291250490403</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='garbage_bag56'>
+            <include>
+              <pose>-21 -17 1 0 0 2.032533283769458</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='water_bottle57'>
+            <include>
+              <pose>16 0 1 0 0 0.34275953944218124</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle58'>
+            <include>
+              <pose>-44 -47 1 0 0 0.47241889600739656</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle59'>
+            <include>
+              <pose>-36 44 1 0 0 2.090955569896062</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle60'>
+            <include>
+              <pose>32 -26 1 0 0 2.8366880190063584</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle61'>
+            <include>
+              <pose>8 -31 1 0 0 0.798531776213525</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block62'>
+            <include>
+              <pose>-11 35 1 0 0 0.6428623893596034</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='square_bottle63'>
+            <include>
+              <pose>-1 -26 1 0 0 2.6287443163953568</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle64'>
+            <include>
+              <pose>39 44 1 0 0 0.16587190858068232</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag65'>
+            <include>
+              <pose>-14 4 1 0 0 1.3946817379955503</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='square_bottle66'>
+            <include>
+              <pose>20 12 1 0 0 2.2196398707061835</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle67'>
+            <include>
+              <pose>-45 -17 1 0 0 1.4861487057320162</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag68'>
+            <include>
+              <pose>19 -39 1 0 0 2.175152728427776</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='water_bottle69'>
+            <include>
+              <pose>-39 -34 1 0 0 0.07110334107633179</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle70'>
+            <include>
+              <pose>46 19 1 0 0 2.196298151478278</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle71'>
+            <include>
+              <pose>6 38 1 0 0 1.6970005204392105</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle72'>
+            <include>
+              <pose>2 39 1 0 0 1.91396034796763</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle73'>
+            <include>
+              <pose>-35 -28 1 0 0 2.1257011056072983</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block74'>
+            <include>
+              <pose>-7 41 1 0 0 1.6829178247864225</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='dock_block75'>
+            <include>
+              <pose>48 39 1 0 0 2.0007677683732035</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='garbage_bag76'>
+            <include>
+              <pose>-8 -34 1 0 0 1.9883728642925076</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='square_bottle77'>
+            <include>
+              <pose>35 28 1 0 0 1.430821194601361</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle78'>
+            <include>
+              <pose>23 -34 1 0 0 2.4298735103237386</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='dock_block79'>
+            <include>
+              <pose>46 -43 1 0 0 1.9542829812917477</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='square_bottle80'>
+            <include>
+              <pose>48 45 1 0 0 2.7404891672218987</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle81'>
+            <include>
+              <pose>-44 -2 1 0 0 1.1882987941944383</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle82'>
+            <include>
+              <pose>36 -35 1 0 0 0.12506083175555177</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='water_bottle83'>
+            <include>
+              <pose>41 27 1 0 0 2.717212674576285</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag84'>
+            <include>
+              <pose>-13 5 1 0 0 2.715559826273308</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='garbage_bag85'>
+            <include>
+              <pose>-5 22 1 0 0 2.362439038797039</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='water_bottle86'>
+            <include>
+              <pose>-8 -34 1 0 0 1.4203391390981102</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag87'>
+            <include>
+              <pose>-4 26 1 0 0 2.3730539964930433</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='beer_bottle88'>
+            <include>
+              <pose>33 -15 1 0 0 2.5267935417784892</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle89'>
+            <include>
+              <pose>-40 47 1 0 0 2.6374905948617426</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle90'>
+            <include>
+              <pose>-16 -17 1 0 0 0.016326573216871493</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle91'>
+            <include>
+              <pose>24 20 1 0 0 0.6547731868881174</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle92'>
+            <include>
+              <pose>25 18 1 0 0 1.4178427853715763</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+<model name='square_bottle93'>
+            <include>
+              <pose>8 -43 1 0 0 2.5390674356181826</pose>
+              <uri>model://square_bottle</uri>
+            </include>
+          </model>
+<model name='garbage_bag94'>
+            <include>
+              <pose>-46 14 1 0 0 2.3871333756384656</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='dock_block95'>
+            <include>
+              <pose>24 15 1 0 0 0.07895047180122836</pose>
+              <uri>model://dock_block</uri>
+            </include>
+          </model>
+<model name='garbage_bag96'>
+            <include>
+              <pose>-39 -7 1 0 0 0.26130426134513873</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='garbage_bag97'>
+            <include>
+              <pose>26 7 1 0 0 1.3957929655729995</pose>
+              <uri>model://garbage_bag</uri>
+            </include>
+          </model>
+<model name='water_bottle98'>
+            <include>
+              <pose>49 44 1 0 0 1.2959991338418713</pose>
+              <uri>model://water_bottle</uri>
+            </include>
+          </model>
+<model name='beer_bottle99'>
+            <include>
+              <pose>-4 27 1 0 0 2.348634923756744</pose>
+              <uri>model://beer_bottle</uri>
+            </include>
+          </model>
+     <include>
+      <uri>model://platform</uri>
+      <pose frame=''>0 0 0.5 1.5708 0 0</pose>
+    </include>
+    <include>
+      <uri>model://ocean</uri>
+    </include>
+  </world>
+</sdf>
