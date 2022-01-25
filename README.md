@@ -16,4 +16,4 @@ sudo apt-get install libcgal-dev
   - Before "starting" the simulation, just run the second script in the tmux spawn window, to spawn the USV
   - Now press play on the gazebo.
 
-  PS: If you want to change the way the garbage is being generated, go to the random_trash folder and run the pyhton application "ilhalixoLaunch.py", on lines 14 to 23 you can see some parameters that you can change to make different patterns with the garbage.
+  PS: If you want to change the way the garbage is being generated, go to the random_trash folder and run the pyhton application "ilhalixoLaunch.py", on lines 14 to 23 you can see some parameters that you can change to make different patterns with the garbage. Once you run the code, you need to get the trash.launch file that is overwritten in the folder, and replace it in the start folder in offshore_uav_pack. (PACKAGE/offshore_uav_pack/start).
