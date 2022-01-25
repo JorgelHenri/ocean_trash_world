@@ -15,3 +15,5 @@ sudo apt-get install libcgal-dev
     $ ./start.sh
   - Before "starting" the simulation, just run the second script in the tmux spawn window, to spawn the USV
   - Now press play on the gazebo.
+
+  PS: If you want to change the way the garbage is being generated, go to the random_trash folder and run the pyhton application "ilhalixoLaunch.py", on lines 14 to 23 you can see some parameters that you can change to make different patterns with the garbage.
