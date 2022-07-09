@@ -3,7 +3,7 @@
   <model name='base_land'>
     <link name='link'>
       <inertial>
-        <mass>1</mass>
+        <mass>20</mass>
         <inertia>
           <ixx>0.166667</ixx>
           <ixy>0</ixy>
