@@ -68,10 +68,10 @@
 
     <!-- Dunes {-->
 
-    <!-- <include>
-      <uri>model://lake_bottom</uri>
-      <pose frame=''>-130 -130 -18 0 -0 0</pose>
-    </include> -->
+    <include>
+      <uri>model://grass_plane</uri>
+      <pose frame=''>0 0 -3 0 -0 0</pose>
+    </include>
 
     <!--}-->
 
