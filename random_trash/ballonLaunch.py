@@ -22,7 +22,7 @@ minDensityTrash, maxDensityTrash = 0.6, 0.9
 # format = "X", "quad", "u", "random", "triangle", "other"
 format = "X", "quad", "other"
 
-f = open("trash.launch", "w")
+f = open("ballontrash.launch", "w")
 f.write(startText)
 
 count = 0
@@ -42,50 +42,50 @@ def insertTrash1(x, y, yaw, count):
     count += 1
     return x, y, yaw, model, count
 
-def insertTrash2(x, y, yaw, count):
-    model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
-        <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
-        <arg name='x' value='" + str(x) + "' />\n\
-        <arg name='y' value='" + str(y) + "' />\n\
-        <arg name='z' value='2' />\n\
-        <arg name='roll' value='0'/>\n\
-        <arg name='pitch' value='0'/>\n\
-        <arg name='yaw' value='" + str(yaw) + "' />\n\
-        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/garbage_bag/model.sdf' />\n\
-    </include>\n"
+# def insertTrash2(x, y, yaw, count):
+#     model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
+#         <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
+#         <arg name='x' value='" + str(x) + "' />\n\
+#         <arg name='y' value='" + str(y) + "' />\n\
+#         <arg name='z' value='2' />\n\
+#         <arg name='roll' value='0'/>\n\
+#         <arg name='pitch' value='0'/>\n\
+#         <arg name='yaw' value='" + str(yaw) + "' />\n\
+#         <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/garbage_bag/model.sdf' />\n\
+#     </include>\n"
 
-    count += 1
-    return x, y, yaw, model, count
+#     count += 1
+#     return x, y, yaw, model, count
 
-def insertTrash3(x, y, yaw, count):
-    model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
-        <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
-        <arg name='x' value='" + str(x) + "' />\n\
-        <arg name='y' value='" + str(y) + "' />\n\
-        <arg name='z' value='2' />\n\
-        <arg name='roll' value='0'/>\n\
-        <arg name='pitch' value='0'/>\n\
-        <arg name='yaw' value='" + str(yaw) + "' />\n\
-        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/square_bottle/model.sdf' />\n\
-    </include>\n"
+# def insertTrash3(x, y, yaw, count):
+#     model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
+#         <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
+#         <arg name='x' value='" + str(x) + "' />\n\
+#         <arg name='y' value='" + str(y) + "' />\n\
+#         <arg name='z' value='2' />\n\
+#         <arg name='roll' value='0'/>\n\
+#         <arg name='pitch' value='0'/>\n\
+#         <arg name='yaw' value='" + str(yaw) + "' />\n\
+#         <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/square_bottle/model.sdf' />\n\
+#     </include>\n"
     
-    count += 1
-    return x, y, yaw, model, count
+#     count += 1
+#     return x, y, yaw, model, count
 
-def insertTrash4(x, y, yaw, count):
-    model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
-        <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
-        <arg name='x' value='" + str(x) + "' />\n\
-        <arg name='y' value='" + str(y) + "' />\n\
-        <arg name='z' value='2' />\n\
-        <arg name='roll' value='0'/>\n\
-        <arg name='pitch' value='0'/>\n\
-        <arg name='yaw' value='" + str(yaw) + "' />\n\
-        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/water_bottle/model.sdf' />\n\
-    </include>\n"
+# def insertTrash4(x, y, yaw, count):
+#     model = "<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>\n\
+#         <arg name='robot_name' value='trashin" + str(count) + "'/>\n\
+#         <arg name='x' value='" + str(x) + "' />\n\
+#         <arg name='y' value='" + str(y) + "' />\n\
+#         <arg name='z' value='2' />\n\
+#         <arg name='roll' value='0'/>\n\
+#         <arg name='pitch' value='0'/>\n\
+#         <arg name='yaw' value='" + str(yaw) + "' />\n\
+#         <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/water_bottle/model.sdf' />\n\
+#     </include>\n"
     
-    count += 1
-    return x, y, yaw, model, count
+#     count += 1
+#     return x, y, yaw, model, count
 
 def insertTrash5(x, y, yaw, count):
     model = ""
@@ -158,7 +158,7 @@ def quad(centralX, centralY, r):
     return pointX, pointY
 
 # trashs = [insertTrash1, insertTrash2, insertTrash3, insertTrash4, insertTrash5, insertTrash6, insertTrash7, insertTrash8, insertTrash9, insertTrash10]
-trashs = [insertTrash1, insertTrash2, insertTrash3, insertTrash4]
+trashs = [insertTrash1]
 
 x, y = [], []
 
