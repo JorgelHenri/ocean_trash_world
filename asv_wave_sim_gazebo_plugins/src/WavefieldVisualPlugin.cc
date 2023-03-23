@@ -19,7 +19,6 @@
 #include "asv_wave_sim_gazebo_plugins/Gazebo.hh"
 #include "asv_wave_sim_gazebo_plugins/Grid.hh"
 #include "asv_wave_sim_gazebo_plugins/Wavefield.hh"
-#include "asv_wave_sim_gazebo_plugins/WaveParameters.hh"
 #include "asv_wave_sim_gazebo_plugins/Utilities.hh"
 
 #include <gazebo/gazebo.hh>
@@ -205,17 +204,7 @@ namespace asv
 // WavefieldVisualPlugin
 
   WavefieldVisualPlugin::~WavefieldVisualPlugin()
-  { 
-    // Clean up.
-    this->data->waveParams.reset();
-
-    // Reset connections and transport.
-    this->data->connection.reset();
-    this->data->statsSub.reset();
-    this->data->waveSub.reset();
-    this->data->responseSub.reset();
-    this->data->requestPub.reset();
-    this->data->gzNode.reset();
+  {
   }
 
   WavefieldVisualPlugin::WavefieldVisualPlugin() :
@@ -236,7 +225,7 @@ namespace asv
     // gzmsg << "Load WavefieldVisualPlugin [thread: " << threadId << "]" << std::endl;
 
     // Capture visual and plugin SDF
-    GZ_ASSERT(_visual != nullptr, "Visual must not be null");
+    GZ_ASSERT(_visual != nullptr, "Visual mus not be null");
     GZ_ASSERT(_sdf != nullptr, "SDF Element must not be null");
 
     // Capture the visual and sdf.

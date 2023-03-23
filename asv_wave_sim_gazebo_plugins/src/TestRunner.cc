@@ -18,6 +18,7 @@
 #include <chrono>
 #include <thread>
 
+void RunCGALTests();
 void RunMeshToolsTests();
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -27,6 +28,7 @@ int main(int _argc, char **_argv)
   {
     std::cout << "TestRunner:" << std::endl;
     
+    RunCGALTests();
     RunMeshToolsTests();
   }
   catch(const gazebo::common::Exception &_e)

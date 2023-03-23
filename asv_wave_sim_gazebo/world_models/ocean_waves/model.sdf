@@ -32,10 +32,10 @@
       <wave>
         <number>3</number>
         <scale>2.5</scale>
-        <angle>0.3</angle>
+        <angle>1</angle>
         <steepness>1.0</steepness>
-        <amplitude>1.0</amplitude>
-        <period>8.0</period>
+        <amplitude>0.2</amplitude>
+        <period>7.0</period>
         <direction>1 1</direction>
       </wave>
       <markers>

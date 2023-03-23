@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8'?>
+            <launch>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin0'/>
+        <arg name='x' value='5' />
+        <arg name='y' value='23' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.3363817820288895' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin1'/>
+        <arg name='x' value='4' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.7080220514812483' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin2'/>
+        <arg name='x' value='2' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.359740223163545' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin3'/>
+        <arg name='x' value='8' />
+        <arg name='y' value='16' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.8618432504582865' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin4'/>
+        <arg name='x' value='2' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.4699219438147655' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin5'/>
+        <arg name='x' value='12' />
+        <arg name='y' value='15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.3116385061928097' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin6'/>
+        <arg name='x' value='9' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.79035306489254' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin7'/>
+        <arg name='x' value='10' />
+        <arg name='y' value='25' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.5779744671919159' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin8'/>
+        <arg name='x' value='6' />
+        <arg name='y' value='13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.1227514720953304' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin9'/>
+        <arg name='x' value='10' />
+        <arg name='y' value='27' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.9771823091707466' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin10'/>
+        <arg name='x' value='3' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.452179441277069' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin11'/>
+        <arg name='x' value='9' />
+        <arg name='y' value='23' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.02978666441303' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin12'/>
+        <arg name='x' value='2' />
+        <arg name='y' value='18' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.5837487214536603' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin13'/>
+        <arg name='x' value='9' />
+        <arg name='y' value='15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.7652440017516098' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin14'/>
+        <arg name='x' value='2' />
+        <arg name='y' value='25' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.38219681227412444' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin15'/>
+        <arg name='x' value='8' />
+        <arg name='y' value='13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.2484651232392463' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin16'/>
+        <arg name='x' value='13' />
+        <arg name='y' value='9' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.1141001853562877' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin17'/>
+        <arg name='x' value='7' />
+        <arg name='y' value='27' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.4508303205595204' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin18'/>
+        <arg name='x' value='8' />
+        <arg name='y' value='12' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.2167862096236466' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin19'/>
+        <arg name='x' value='13' />
+        <arg name='y' value='24' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.8136066977526522' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin20'/>
+        <arg name='x' value='9' />
+        <arg name='y' value='15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.7028566044961306' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin21'/>
+        <arg name='x' value='8' />
+        <arg name='y' value='11' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.4330955876557072' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin22'/>
+        <arg name='x' value='12' />
+        <arg name='y' value='25' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.532117820826331' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin23'/>
+        <arg name='x' value='5' />
+        <arg name='y' value='21' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.819974128446076' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin24'/>
+        <arg name='x' value='-2' />
+        <arg name='y' value='13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.5158983143756133' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin25'/>
+        <arg name='x' value='-18' />
+        <arg name='y' value='-4' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.1286550395236765' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin26'/>
+        <arg name='x' value='-5' />
+        <arg name='y' value='13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.5542649132170725' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin27'/>
+        <arg name='x' value='-15' />
+        <arg name='y' value='-25' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.764576338428553' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin28'/>
+        <arg name='x' value='13' />
+        <arg name='y' value='15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.4132961522195986' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin29'/>
+        <arg name='x' value='23' />
+        <arg name='y' value='11' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.876666893840088' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin30'/>
+        <arg name='x' value='-2' />
+        <arg name='y' value='20' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.26467213044823684' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin31'/>
+        <arg name='x' value='-5' />
+        <arg name='y' value='17' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.763370550351364' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin32'/>
+        <arg name='x' value='-22' />
+        <arg name='y' value='-10' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.365579187482104' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin33'/>
+        <arg name='x' value='-11' />
+        <arg name='y' value='2' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.02372861953042834' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin34'/>
+        <arg name='x' value='-26' />
+        <arg name='y' value='3' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.9024292280480566' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin35'/>
+        <arg name='x' value='-21' />
+        <arg name='y' value='7' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.6162522497630465' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin36'/>
+        <arg name='x' value='-25' />
+        <arg name='y' value='2' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.7695275096323937' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin37'/>
+        <arg name='x' value='-22' />
+        <arg name='y' value='10' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='3.052481819659482' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin38'/>
+        <arg name='x' value='-21' />
+        <arg name='y' value='10' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.5909994169447494' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin39'/>
+        <arg name='x' value='-22' />
+        <arg name='y' value='13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.5767354510771638' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin40'/>
+        <arg name='x' value='-26' />
+        <arg name='y' value='12' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.9152026329097285' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin41'/>
+        <arg name='x' value='-23' />
+        <arg name='y' value='8' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='3.0347420733846886' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin42'/>
+        <arg name='x' value='-20' />
+        <arg name='y' value='7' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.37296296369112' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin43'/>
+        <arg name='x' value='-24' />
+        <arg name='y' value='4' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.317751197375739' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin44'/>
+        <arg name='x' value='-23' />
+        <arg name='y' value='10' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.1138212922976736' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin45'/>
+        <arg name='x' value='-25' />
+        <arg name='y' value='12' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.7531306214225244' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin46'/>
+        <arg name='x' value='-21' />
+        <arg name='y' value='4' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.5525231466792215' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin47'/>
+        <arg name='x' value='-23' />
+        <arg name='y' value='11' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.17373332227043903' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin48'/>
+        <arg name='x' value='-20' />
+        <arg name='y' value='11' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.055024177768682' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin49'/>
+        <arg name='x' value='-21' />
+        <arg name='y' value='12' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.3898380988683554' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin50'/>
+        <arg name='x' value='-47' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.6925295195458623' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin51'/>
+        <arg name='x' value='-47' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.159936028701785' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin52'/>
+        <arg name='x' value='-50' />
+        <arg name='y' value='-16' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.5842089644381845' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin53'/>
+        <arg name='x' value='-50' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.15627276580442578' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin54'/>
+        <arg name='x' value='-36' />
+        <arg name='y' value='-14' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.5691686440737577' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin55'/>
+        <arg name='x' value='-41' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.3875866411986761' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin56'/>
+        <arg name='x' value='-37' />
+        <arg name='y' value='-13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.8086351861134564' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin57'/>
+        <arg name='x' value='-43' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.7689291643506806' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin58'/>
+        <arg name='x' value='-37' />
+        <arg name='y' value='-16' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='3.078326634510452' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin59'/>
+        <arg name='x' value='-45' />
+        <arg name='y' value='-14' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.4995534859306694' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin60'/>
+        <arg name='x' value='-33' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='1.3328860895148198' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin61'/>
+        <arg name='x' value='-34' />
+        <arg name='y' value='-13' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='3.005954299773509' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin62'/>
+        <arg name='x' value='-48' />
+        <arg name='y' value='-15' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='0.01126284714198232' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+<include file='$(find offshore_uav_pack)/launch/spawn_sdf.launch'>
+        <arg name='robot_name' value='trashin63'/>
+        <arg name='x' value='-33' />
+        <arg name='y' value='-16' />
+        <arg name='z' value='2' />
+        <arg name='roll' value='0'/>
+        <arg name='pitch' value='0'/>
+        <arg name='yaw' value='2.138603911630991' />
+        <arg name='sdf_robot_file' value='$(find asv_wave_sim_gazebo)/models/ballon/model.sdf' />
+    </include>
+ </launch>

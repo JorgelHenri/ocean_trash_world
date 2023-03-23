@@ -19,7 +19,6 @@
 #include "asv_wave_sim_gazebo_plugins/Grid.hh"
 #include "asv_wave_sim_gazebo_plugins/Wavefield.hh"
 #include "asv_wave_sim_gazebo_plugins/WavefieldEntity.hh"
-#include "asv_wave_sim_gazebo_plugins/WaveParameters.hh"
 #include "asv_wave_sim_gazebo_plugins/Utilities.hh"
 
 #include <gazebo/common/Assert.hh>
@@ -104,11 +103,7 @@ namespace asv
 
   WavefieldModelPlugin::~WavefieldModelPlugin()
   {
-    // Clean up.
-    this->data->wavefieldEntity.reset();
-
-    // Reset connections and transport.
-    this->data->updateConnection.reset();
+    // Remove node from the topic manager.
     this->data->requestSub.reset();
     this->data->waveSub.reset();
     this->data->responsePub.reset();

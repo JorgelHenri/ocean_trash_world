@@ -656,7 +656,7 @@
       <pose frame=''>0 0 0.5 1.5708 0 0</pose>
     </include>
     <include>
-      <uri>model://ocean</uri>
+      <uri>model://ocean_waves</uri>
     </include>
   </world>
 </sdf>

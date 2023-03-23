@@ -15,7 +15,7 @@
     <gazebo>
         <plugin name="hydrodynamics" filename="libHydrodynamicsPlugin.so">
             <!-- Wave Model -->
-            <wave_model>ocean</wave_model>
+            <wave_model>ocean_waves</wave_model>
     
             <!-- Hydrodynamics -->
             <damping_on>true</damping_on>

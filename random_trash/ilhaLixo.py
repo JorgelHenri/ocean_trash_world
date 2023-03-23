@@ -62,7 +62,7 @@ endText = "     <include>\n\
       <pose frame=''>0 0 0.5 1.5708 0 0</pose>\n\
     </include>\n\
     <include>\n\
-      <uri>model://ocean</uri>\n\
+      <uri>model://ocean_waves</uri>\n\
     </include>\n\
   </world>\n\
 </sdf>"
