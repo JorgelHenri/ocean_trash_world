@@ -9,7 +9,7 @@ sudo apt-get install libcgal-dev
 ```
   - In the home/workspace/src directory clone this package;
   - Run a catkin build;
-  - Using terminal access home/workspace/src/offshore_uav/offshore_uav_pack/start;
+  - Using terminal access home/workspace/src/ocean_trash_world/offshore_uav_pack/start;
   - Run this command on the terminal:
   
     $ ./start.sh
